@@ -1,0 +1,38 @@
+#divlogin{
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#divlogin h3{
+    color:#2E518D;
+}
+
+#divlogin input{
+    padding: 5px 12px;
+    border: none;
+    background-color: rgb(214, 214, 214);
+}
+
+input:focus{
+    outline: none;
+}
+
+#loginSubmit{
+    background-color: #A8CA5A !important;
+    color: white;
+    padding: 6px 20px !important;
+    width: 90%;
+    margin: 0 5%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginSubmit:hover{
+    background-color: #8aaf33 !important;
+}

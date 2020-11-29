@@ -1,0 +1,27 @@
+#mainText{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    text-align: center;
+    justify-content: center;
+}
+#mainText h2{
+    font-size: 30px;
+}
+#mainText p{
+    font-size: 22px;
+    margin: 10px 0;
+}
+#contentA{
+    margin-top: 20px;
+}
+#mainText a{
+    background-color:#A8CA5A;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#mainText a:hover{
+    background-color:#8aaf33;
+}
